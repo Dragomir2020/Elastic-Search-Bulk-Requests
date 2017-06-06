@@ -1,0 +1,30 @@
+{
+  "name": "csv-t0-json",
+  "version": "1.0.0",
+  "description": "converts csv data and loops through and adds specific entries",
+  "main": "importES.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "csv to json and add data"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "elasticsearch",
+    "kibana",
+    "js",
+    "javascript"
+  ],
+  "author": "Dillon Dragomir",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.6",
+    "delay": "^2.0.0",
+    "elasticsearch": "^13.0.1",
+    "fs": "0.0.1-security",
+    "xlsx-to-json": "^0.2.4"
+  }
+}
